@@ -5,9 +5,9 @@ import time
 import datetime
 import aiohttp
 
-api_id = int("1210323")
-api_hash = "25f995fdee9d1f46a9291d7ed4cd6e3a"
-bot_token = "818164884:AAE7VSQA69j0S3zUfjX_nmjn5qTB2Y-Idfo"
+api_id = int("1207380")
+api_hash = "8d8a52e785ea0d81d7e43f1ddf1b37e0"
+bot_token = "1022678225:AAEyxowniVIQqQeOwOAq2qFNO8e2GtEHqPs"
 download_path = "Downloads/"
 
 bot = TelegramClient('Uploader bot', api_id, api_hash).start(bot_token=bot_token)
